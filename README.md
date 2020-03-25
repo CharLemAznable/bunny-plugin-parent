@@ -15,6 +15,14 @@ with baby lambs across sunny green meadows.
 
 ##### Maven Parent
 
+```xml
+<parent>
+  <groupId>com.github.charlemaznable</groupId>
+  <artifactId>bunny-plugin-parent</artifactId>
+  <version>0.0.1</version>
+</parent>
+```
+
 ##### Maven Parent SNAPSHOT
 
 ```xml
