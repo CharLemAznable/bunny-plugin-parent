@@ -29,6 +29,6 @@ with baby lambs across sunny green meadows.
 <parent>
   <groupId>com.github.charlemaznable</groupId>
   <artifactId>bunny-plugin-parent</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.3-SNAPSHOT</version>
 </parent>
 ```
