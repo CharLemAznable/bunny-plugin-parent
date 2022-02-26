@@ -45,8 +45,8 @@
     </repositories>
 
     <properties>
-        <bunny-plugin.version>0.1.6-SNAPSHOT</bunny-plugin.version>
         <bunny-client.version>0.1.6-SNAPSHOT</bunny-client.version>
+        <bunny-plugin.version>0.1.6-SNAPSHOT</bunny-plugin.version>
     </properties>
 
     <dependencies>
