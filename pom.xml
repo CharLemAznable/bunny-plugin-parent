@@ -24,6 +24,26 @@
         <url>https://github.com/CharLemAznable/bunny-plugin-parent</url>
     </scm>
 
+    <repositories>
+        <repository>
+            <id>central</id>
+            <url>https://repo1.maven.org/maven2/</url>
+            <layout>default</layout>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>sonatype</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+            <layout>default</layout>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
+    </repositories>
+
     <properties>
         <bunny-plugin.version>0.1.6-SNAPSHOT</bunny-plugin.version>
         <bunny-client.version>0.1.6-SNAPSHOT</bunny-client.version>
@@ -32,14 +52,14 @@
     <dependencies>
         <dependency>
             <groupId>com.github.charlemaznable</groupId>
-            <artifactId>bunny-plugin</artifactId>
-            <version>${bunny-plugin.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.github.charlemaznable</groupId>
             <artifactId>bunny-client</artifactId>
             <version>${bunny-client.version}</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.github.charlemaznable</groupId>
+            <artifactId>bunny-plugin</artifactId>
+            <version>${bunny-plugin.version}</version>
         </dependency>
     </dependencies>
 
