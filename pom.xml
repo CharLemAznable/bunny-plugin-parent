@@ -7,11 +7,11 @@
     <parent>
         <groupId>com.github.charlemaznable</groupId>
         <artifactId>complex-dependencies</artifactId>
-        <version>2023.0.3-SNAPSHOT</version>
+        <version>2023.0.4-SNAPSHOT</version>
     </parent>
 
     <artifactId>bunny-plugin-parent</artifactId>
-    <version>2023.0.3-SNAPSHOT</version>
+    <version>2023.0.4-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Bunny Plugin Parent</name>
@@ -45,8 +45,8 @@
     </repositories>
 
     <properties>
-        <bunny-client.version>2023.0.3-SNAPSHOT</bunny-client.version>
-        <bunny-plugin.version>2023.0.3-SNAPSHOT</bunny-plugin.version>
+        <bunny-client.version>2023.0.4-SNAPSHOT</bunny-client.version>
+        <bunny-plugin.version>2023.0.4-SNAPSHOT</bunny-plugin.version>
     </properties>
 
     <dependencies>
